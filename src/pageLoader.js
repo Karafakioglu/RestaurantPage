@@ -1,8 +1,10 @@
-import { Navbar, Header, Footer  } from "./staticElements";
+import { Navbar, Header, Footer, BackgroundImg  } from "./staticElements";
 
 export default function pageLoader() {
     const bodyElem = document.body;
     const contentElem = document.getElementById('content');
+
+    //---------------Creates static part of the page------------------
 
     // Create and set up the header with navbar.
     let navbar = new Navbar();
@@ -18,8 +20,9 @@ export default function pageLoader() {
     // Insert the footer element after the content div.
     bodyElem.insertBefore(footer.element, contentElem.nextSibling);
 
-    let img = document.createElement('img');
-    img.src = "/src/img/background.jpg";
+    let backgroundImg = new BackgroundImg();
 
-    bodyElem.appendChild(img);
+    bodyElem.appendChild(backgroundImg.element);
+
+    //---------------Creates static part of the page------------------
 }

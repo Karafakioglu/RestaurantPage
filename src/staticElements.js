@@ -37,11 +37,11 @@ class Footer {
     }
 }
 
-// class Body{
-//     constructor(){
-//         this.element = document.createElement('img');
-//         this.element.src = "/src/img/background.jpg"
-//     }
-// }
+class BackgroundImg{
+    constructor(){
+        this.element = document.createElement('img');
+        this.element.src = "/src/img/background.jpg"
+    }
+}
 
-export {Navbar, Header, Footer};
+export {Navbar, Header, Footer, BackgroundImg};
