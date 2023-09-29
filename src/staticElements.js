@@ -40,7 +40,8 @@ class Footer {
 class BackgroundImg{
     constructor(){
         this.element = document.createElement('img');
-        this.element.src = "/src/img/background.jpg"
+        this.element.src = "/src/img/background.jpg";
+        this.element.className = "backgroundImg";
     }
 }
 
