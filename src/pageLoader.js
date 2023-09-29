@@ -1,4 +1,5 @@
 import { Navbar, Header, Footer, BackgroundImg  } from "./staticElements";
+import { Home } from "./home";
 
 export default function pageLoader() {
     const bodyElem = document.body;
@@ -25,4 +26,8 @@ export default function pageLoader() {
     bodyElem.appendChild(backgroundImg.element);
 
     //---------------Creates static part of the page------------------
+
+    let home = new Home();
+    
+    contentElem.appendChild(home.element);
 }

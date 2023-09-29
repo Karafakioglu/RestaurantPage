@@ -51,3 +51,19 @@ footer{
     padding-top: 1rem;
     background-color: aqua;
 }
+
+.welcome-div{
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    font-weight: 900;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: rgba(123, 62, 68, 0.263);
+    color: rgb(74, 86, 178);
+}
