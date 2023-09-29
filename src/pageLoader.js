@@ -1,6 +1,7 @@
 import { Navbar, Header, Footer, BackgroundImg  } from "./staticElements";
 import { Home } from "./home";
 import { MenuContainer, Menu } from "./menu";
+import { Contact } from "./contact";
 
 export default function pageLoader() {
     const bodyElem = document.body;
@@ -51,13 +52,15 @@ export default function pageLoader() {
     // contentElem.appendChild(menuContainer.menuContainer);
 
     //---------------Creates menu part of the page------------------
-    
+
 
 
     //---------------Creates contact part of the page------------------
 
 
+    let contact = new Contact();
 
+    contentElem.appendChild(contact.div);
 
 
     //---------------Creates contact part of the page------------------
