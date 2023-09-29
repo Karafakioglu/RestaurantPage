@@ -1,1 +1,4 @@
-console.log("Test!!");
+import pageLoader from "./pageLoader";
+import './style.css';
+
+pageLoader();
